@@ -125,9 +125,9 @@ Between the `def` and the `end` we write our _implementation_ or _method body_.
 ## Define "Implementation"
 
 The implementation is the "more atomic" evaluations and statements that do the
-work implied by the method's name. Just like `make_dinner` includes all sorts
-of work around cooking, frying, and dicing, `say_hello_world_five_times`
-involves something around outputting five times.
+work implied by the method's name. Just like the real-life task of "Making
+Dinner" includes all sorts of work around cooking, frying, and dicing,
+`say_hello_world_five_times` involves something around outputting five times.
 
 > **TIP**: A good practice is to define the method and then immediately close
 > it with `end` _before_ writing the _implementation_. Many expressions in Ruby use
@@ -189,7 +189,7 @@ expressions until it reaches `end`. Then it hops back to where the method was
 invoked and resumes the **default sequence**.
 
 Follow the execution sequence in this following even-cleaner _implementation_
-of `say_greeting_five_times`:
+of `say_hello_five_times`:
 
 ```ruby
 def say_hello_world_five_times
